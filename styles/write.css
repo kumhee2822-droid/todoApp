@@ -1,0 +1,28 @@
+/* 할일 작성 write.css */
+#wrap {position: relative;}
+#write_form {
+    position: absolute; left: 20px;
+    top: 228px;
+    width: calc(100% - 40px);
+    height: 300px;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#wrap #write_form #write_wrap {
+    height: 100%;
+}
+#wrap #write_form #write_wrap #write_contents {
+    width: 100%;
+    height: calc(100% - 24px);
+    border: none;
+    background: none;
+}
+#wrap #write_form #write_wrap #confirm_btn {
+    width: 100%;
+    text-align: right;
+}
+#wrap #write_form #write_wrap #confirm_btn img {}
+#wrap #write_fab {}
+#wrap #write_fab img {}
